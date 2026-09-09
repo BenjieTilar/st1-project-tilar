@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal certificate and badge portfolio" />
+  <title>Benjie O. Tilar | Certificates & Badges</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Credential Vault home">
+        <span class="brand-mark">CV</span>
+        <span>
+          <strong>Benjie O. Tilar</strong>
+          <small>BSIT 3D · Partido State University</small>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#credentials">Credentials</a>
+        <a href="#about">About</a>
+        
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">BENJIE O. TILAR · BSIT 3D</span>
+          <h1>Skills I learned.<br><span>Proof I earned.</span></h1>
+          <p>
+            A personal collection of certificates, digital badges, seminars,
+            courses, and professional learning milestones at Partido State University.
+          </p>
+          <div class="hero-actions">
+            
+            <a class="btn btn-secondary" href="#credentials">Browse collection</a>
+          </div>
+
+          <div class="mini-stats">
+            <div><strong id="totalCount">0</strong><span>Total</span></div>
+            <div><strong id="certificateCount">0</strong><span>Certificates</span></div>
+            <div><strong id="badgeCount">0</strong><span>Badges</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="credential-preview card-a">
+            <span class="preview-label">CERTIFICATE</span>
+            <div class="preview-seal">✓</div>
+            <div>
+              <span class="preview-line wide"></span>
+              <span class="preview-line"></span>
+              <span class="preview-line tiny"></span>
+            </div>
+          </div>
+          <div class="badge-preview card-b">
+            <div class="badge-icon">★</div>
+            <strong>Verified Skill</strong>
+            <small>Digital Badge</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar-wrap" id="credentials">
+        <div>
+          <span class="section-kicker">PORTFOLIO</span>
+          <h2>Credential Collection</h2>
+        </div>
+
+        <div class="toolbar">
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="Search title, issuer, skill..." />
+          </label>
+
+          <div class="filters" aria-label="Credential filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="certificate">Certificates</button>
+            <button class="filter" data-filter="badge">Badges</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="credential-grid" id="credentialGrid" aria-live="polite"></section>
+
+      <section class="empty-state hidden" id="emptyState">
+        <div class="empty-icon">＋</div>
+        <h3>No credentials found</h3>
+        <p>No certificates or badges match your search.</p>
+
+      </section>
+
+      <section class="about" id="about">
+        <div>
+          <span class="section-kicker">ABOUT THIS PORTFOLIO</span>
+          <h2>A simple place for every achievement.</h2>
+        </div>
+        <p>
+          Use this portfolio for school requirements, internship applications,
+          seminars, online courses, certifications, or a personal learning record.
+          This public portfolio showcases my completed certificates, digital badges, seminars, and learning milestones.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Benjie O. Tilar · BSIT 3D · Partido State University</p>
+    </footer>
+  </div>
+
+  <!-- Detail modal -->
+  <dialog id="detailDialog" class="modal">
+    <div class="modal-card detail-card">
+      <div class="modal-heading">
+        <span id="detailType" class="type-pill">Certificate</span>
+        <button class="icon-btn" id="closeDetail" aria-label="Close">×</button>
+      </div>
+      <div id="detailImageWrap" class="detail-image-wrap"></div>
+      <h2 id="detailTitle"></h2>
+      <p class="detail-issuer" id="detailIssuer"></p>
+      <div class="detail-meta" id="detailMeta"></div>
+      <p class="detail-notes" id="detailNotes"></p>
+      <div class="detail-actions" id="detailActions"></div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
