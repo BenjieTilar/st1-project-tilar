@@ -9,7 +9,7 @@ const credentials = [
     title: "Cyber Threat Management",
     issuer: "Cisco Networking Academy",
     date: "2026-08-24",
-    tags: ["Cybersecurity", "Threat Management", "Network Security"]
+    tags: ["Cybersecurity", "Threat Management", "Network Security"],
     notes: "Taking the Cyber Threat Management course helped me better understand how cyber threats can affect individuals and organizations. I learned the importance of identifying threats, managing security risks, and applying proper cybersecurity practices. This course improved my awareness of cybersecurity and motivated me to continue developing my skills in protecting digital information and systems.",
     link: "https://www.netacad.com/courses/cyber-threat-management?courseLang=en-US",
     image: "Cyber Threat Management.png"
