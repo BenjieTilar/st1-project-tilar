@@ -12,7 +12,7 @@ const credentials = [
     tags: ["Cybersecurity", "Threat Management", "Network Security"],
     notes: "Taking the Cyber Threat Management course helped me better understand how cyber threats can affect individuals and organizations. I learned the importance of identifying threats, managing security risks, and applying proper cybersecurity practices. This course improved my awareness of cybersecurity and motivated me to continue developing my skills in protecting digital information and systems.",
     link: "https://www.netacad.com/courses/cyber-threat-management?courseLang=en-US",
-    image: "Cyber Threat Management.png"
+    image: "assets/Cyber Threat Management.png"
   },
   {
     id: "cert-2",
@@ -23,7 +23,7 @@ const credentials = [
     tags: ["Data Science", "Data Analytics"],
     notes: "The Introduction to Data Science course gave me a better understanding of how data is collected, analyzed, and used to generate meaningful insights. I learned about the roles of data science, data analytics, and data engineering. This experience strengthened my interest in working with data and encouraged me to further develop my skills in data analysis and technology..",
     link: "https://www.netacad.com/courses/introduction-data-science?courseLang=en-US",
-    image: "Introduction to Data Science.png"
+    image: "assets/Introduction to Data Science.png"
   },
   {
     id: "cert-3",
@@ -34,7 +34,7 @@ const credentials = [
     tags: ["IoT", "Digital Transformation", "Networking"],
     notes: "The Introduction to IoT course helped me understand how connected devices collect and exchange data to make everyday processes smarter and more efficient. I gained a better understanding of IoT concepts and its role in digital transformation. This course also encouraged me to explore how IoT can be applied to real-world technologies and systems.",
     link: "https://www.netacad.com/courses/introduction-iot?courseLang=en-US",
-    image: "Introduction to IoT and Digital Transformation.png"
+    image: "assets/Introduction to IoT and Digital Transformation.png"
   }
 ];
 
