@@ -35,7 +35,18 @@ const credentials = [
     notes: "The Introduction to IoT course helped me understand how connected devices collect and exchange data to make everyday processes smarter and more efficient. I gained a better understanding of IoT concepts and its role in digital transformation. This course also encouraged me to explore how IoT can be applied to real-world technologies and systems.",
     link: "https://www.netacad.com/courses/introduction-iot?courseLang=en-US",
     image: "assets/Introduction to IoT and Digital Transformation.png"
-  }
+  },
+   {
+    id: "badge-1",
+    type: "badge",
+    title: "Introduction to Data Science",
+    issuer: "Cisco Networking Academy",
+    date: "2026-08-27",
+    tags: ["Data Science", "Data Analytics"],
+    notes: "",
+    link: "",
+    image: ""
+  },
 ];
 
 let activeFilter = "all";
