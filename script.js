@@ -36,6 +36,28 @@ const credentials = [
     link: "https://www.netacad.com/courses/introduction-iot?courseLang=en-US",
     image: "assets/Introduction to IoT and Digital Transformation.png"
   },
+    {
+    id: "cert-4",
+    type: "certificate",
+    title: "Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    date: "2026-09-11",
+    tags: ["Cybersecurity", "Information Security", "Cyber Threats", "Cyber Attacks"],
+    notes: "This course gave me a better understanding of cybersecurity and the importance of staying safe online. I learned about common cyber threats, how attackers can compromise information, and ways to protect personal data and privacy. It also increased my awareness of the role cybersecurity plays in both personal and professional environments.",
+    link: "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+    image: "assets/Introduction to Cybersecurity.png"
+  },
+    {
+    id: "cert-5",
+    type: "certificate",
+    title: "IT Customer Support Basics",
+    issuer: "Cisco Networking Academy",
+    date: "2026-09-12",
+    tags: ["IT Support", "Customer Support", "Technical Support", "Troubleshooting", "Problem Solving"],
+    notes: "This course helped me understand the fundamentals of IT customer support and the importance of assisting users with technical issues. I learned how communication, problem-solving, and patience are essential when providing support. The lessons also improved my understanding of how IT support professionals troubleshoot problems and help users resolve their concerns effectively.",
+    link: "https://www.netacad.com/courses/it-customer-support-basics?courseLang=en-US",
+    image: "assets/IT Customer Support Basics.png"
+  },
    {
     id: "badge-1",
     type: "badge",
