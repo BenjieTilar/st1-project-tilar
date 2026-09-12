@@ -1,0 +1,1 @@
+Place your certificate and badge image files in this folder. Then reference them in script.js as assets/filename.jpg
