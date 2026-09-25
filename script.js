@@ -70,6 +70,17 @@ const credentials = [
     image: "assets/Operating Systems Basics.png"
   },
    {
+    id: "cert-7",
+    type: "certificate",
+    title: "Introduction to Modern AI",
+    issuer: "Cisco Networking Academy",
+    date: "2026-09-24",
+    tags: ["Artificial Intelligence", "Generative AI", "Chatbots Prompt", "Engineering"],
+    notes: "This course gave me a practical introduction to how modern AI can be used in everyday tasks, not just in programming. I learned about chatbots, computer vision, machine translation, and how better prompts can improve AI responses. The hands-on activities helped me understand both the capabilities and limitations of AI, making me more confident in using these tools for studying, productivity, and future IT projects.",
+    link: "https://www.netacad.com/courses/introduction-to-modern-ai?courseLang=en-US",
+    image: "assets/Introduction to Modern AI.png"
+  },
+   {
     id: "badge-1",
     type: "badge",
     title: "Introduction to Data Science",
